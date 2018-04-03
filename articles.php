@@ -50,6 +50,7 @@ require 'includes/config.php';
 
 
 
+
                                 $total_count_q = mysqli_query($connection,"SELECT COUNT(`id`) as `total_count`  FROM `articles`");
                                 $total_count = mysqli_fetch_assoc($total_count_q);
                                 $total_count = $total_count['total_count'];
