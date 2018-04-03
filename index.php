@@ -42,7 +42,7 @@ require 'includes/config.php';
                             <article class="article">
                                 <div class="article__image" style="background-image: url(/static/images/<?php echo $art['image'];?>);"></div>
                                 <div class="article__info">
-                                    <a href="/article.php?categorie=<?php echo $art['id'];?>"><?php echo $art['title'];?></a>
+                                    <a href="/categorie.php?categorie=<?php echo $art['id'];?>"><?php echo $art['title'];?></a>
                                     <div class="article__info__meta">
                                         <?php
                                         $art_cat = false;
@@ -53,7 +53,7 @@ require 'includes/config.php';
                                             }
                                         }
                                         ?>
-                                        <small>Категория: <a href="articles.php?categorie=<?php echo $art_cat['id'];?>"><?php echo $art_cat['title'];?></a></small>
+                                        <small>Категория: <a href="categorie.php?categorie=<?php echo $art_cat['id'];?>"><?php echo $art_cat['title'];?></a></small>
                                     </div>
                                     <div class="article__info__preview"><?php echo mb_substr($art['text'],0,50,'utf-8');?>...</div>
                                 </div>
@@ -68,7 +68,7 @@ require 'includes/config.php';
             </div>
 
             <div class="block">
-              <a href="/articles.php?categorie=7">Все записи</a>
+              <a href="/categorie.php?categorie=7">Все записи</a>
               <h3>Безопасность [Новейшее]</h3>
               <div class="block__content">
                 <div class="articles articles__horizontal">
@@ -82,7 +82,7 @@ require 'includes/config.php';
                         <article class="article">
                             <div class="article__image" style="background-image: url(/static/images/<?php echo $art['image'];?>);"></div>
                             <div class="article__info">
-                                <a href="/article.php?categorie=<?php echo $art['id'];?>"><?php echo $art['title'];?></a>
+                                <a href="/categorie.php?categorie=<?php echo $art['id'];?>"><?php echo $art['title'];?></a>
                                 <div class="article__info__meta">
                                     <?php
                                     $art_cat = false;
@@ -93,7 +93,7 @@ require 'includes/config.php';
                                         }
                                     }
                                     ?>
-                                    <small>Категория: <a href="articles.php?categorie=<?php echo $art_cat['id'];?>"><?php echo $art_cat['title'];?></a></small>
+                                    <small>Категория: <a href="categorie.php?categorie=<?php echo $art_cat['id'];?>"><?php echo $art_cat['title'];?></a></small>
                                 </div>
                                 <div class="article__info__preview"><?php echo mb_substr($art['text'],0,50,'utf-8');?>...</div>
                             </div>
@@ -107,7 +107,7 @@ require 'includes/config.php';
             </div>
 
             <div class="block">
-              <a href="/articles.php?categorie=4">Все записи</a>
+              <a href="/categorie.php?categorie=4">Все записи</a>
               <h3>Программирование [Новейшее]</h3>
               <div class="block__content">
                 <div class="articles articles__horizontal">
@@ -121,7 +121,7 @@ require 'includes/config.php';
                         <article class="article">
                             <div class="article__image" style="background-image: url(/static/images/<?php echo $art['image'];?>);"></div>
                             <div class="article__info">
-                                <a href="/article.php?categorie=<?php echo $art['id'];?>"><?php echo $art['title'];?></a>
+                                <a href="/categorie.php?categorie=<?php echo $art['id'];?>"><?php echo $art['title'];?></a>
                                 <div class="article__info__meta">
                                     <?php
                                     $art_cat = false;
@@ -132,7 +132,7 @@ require 'includes/config.php';
                                         }
                                     }
                                     ?>
-                                    <small>Категория: <a href="articles.php?categorie=<?php echo $art_cat['id'];?>"><?php echo $art_cat['title'];?></a></small>
+                                    <small>Категория: <a href="categorie.php?categorie=<?php echo $art_cat['id'];?>"><?php echo $art_cat['title'];?></a></small>
                                 </div>
                                 <div class="article__info__preview"><?php echo mb_substr($art['text'],0,50,'utf-8');?>...</div>
                             </div>
